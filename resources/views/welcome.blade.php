@@ -27,7 +27,7 @@
                 @csrf
 
                 <div class="form-group">
-                    <label for="email">Email (2pac tow typye)</label>
+                    <label for="email">Email (2pac Eminem)</label>
                     <input type="email" name="email" id="email" class="form-control" required autofocus>
                 </div>
 
