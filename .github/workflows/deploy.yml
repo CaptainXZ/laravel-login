@@ -32,6 +32,7 @@ jobs:
           TARGET: "/var/www/html/api-testing/public"
 
       - name: Run deployment script on remote server
+        uses: easingthemes/ssh-deploy@v2.2.0
         with:
           host: ${{ secrets.REMOTE_HOST }}
           username: ${{ secrets.REMOTE_USER }}
