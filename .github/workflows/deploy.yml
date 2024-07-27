@@ -32,7 +32,6 @@ jobs:
           TARGET: "/var/www/html/api-testing/public"
 
       - name: Run deployment script on remote server
-        uses: appleboy/ssh-action@v0.1.5
         with:
           host: ${{ secrets.REMOTE_HOST }}
           username: ${{ secrets.REMOTE_USER }}
